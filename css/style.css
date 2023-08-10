@@ -221,6 +221,7 @@ img {
 }
 .header-div-index {
   display: flex;
+  position: relative;
 }
 /* container default */
 .container {
@@ -323,8 +324,6 @@ ul {
   padding: 0;
 }
 .navigation {
-  position: relative;
-  color: #404bbf;
 }
 .navigation::after {
 }
