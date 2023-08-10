@@ -20,6 +20,7 @@ body {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
+  position: relative;
 }
 .logo_span {
   color: #2e2f42;
@@ -232,7 +233,6 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  position: relative;
 }
 .menu-nav-index {
   display: flex;
