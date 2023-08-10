@@ -416,7 +416,7 @@ ul {
 }
 .customer-link:hover,
 .customer-link:focus {
-  color: #404bbf;
+  border-color: #404bbf;
 }
 .icons-customers {
   fill: currentColor;
