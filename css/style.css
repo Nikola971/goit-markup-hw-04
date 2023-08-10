@@ -37,6 +37,15 @@ body {
   display: flex;
   flex-direction: row;
   position: relative;
+  color: #404bbf;
+}
+.nav_header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #;
 }
 .nav_header:hover,
 .nav_header:focus {
