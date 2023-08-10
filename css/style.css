@@ -38,6 +38,7 @@ body {
   flex-direction: row;
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav_header::after {
   content: '';
@@ -45,7 +46,8 @@ body {
   left: 0;
   bottom: -1px;
   height: 4px;
-  background-color: #;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .nav_header:hover,
 .nav_header:focus {
@@ -62,6 +64,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email_header:hover,
 .email_header:focus {
@@ -331,8 +334,4 @@ p,
 ul {
   margin: 0;
   padding: 0;
-}
-.navigation {
-}
-.navigation::after {
 }
