@@ -394,6 +394,9 @@ ul {
   line-height: 1.11;
   color: #2e2f42;
   margin-bottom: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .list-customer {
   list-style: none;
@@ -423,4 +426,17 @@ ul {
 }
 .icons-customers {
   fill: currentColor;
+}
+.footer-cont {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.footer-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
