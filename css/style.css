@@ -221,7 +221,6 @@ img {
 }
 .header-div-index {
   display: flex;
-  position: relative;
 }
 /* container default */
 .container {
@@ -233,6 +232,7 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
+  position: relative;
 }
 .menu-nav-index {
   display: flex;
