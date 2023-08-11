@@ -495,3 +495,6 @@ ul {
   pointer-events: none;
   opacity: 0;
 }
+.modal-window {
+  position: absolute;
+}
