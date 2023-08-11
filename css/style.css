@@ -245,10 +245,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.port_parah:hover,
-.port_parah:focus {
-  transform: translateY(0%);
-}
+
 img {
   display: block;
   width: 100%;
@@ -553,5 +550,7 @@ ul {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.port-photo {
+.parah-mod:hover,
+.parah-mod:focus {
+  transform: translateY(0%);
 }
