@@ -218,6 +218,10 @@ body {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons:hover,
 .buttons:focus {
@@ -240,6 +244,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.port_parah:hover,
+.port_parah:focus {
+  transform: translateY(0%);
 }
 img {
   display: block;
@@ -535,4 +543,15 @@ ul {
 }
 .modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-mod {
+  display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-mod:hover,
+.link-mod:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.port-photo {
 }
