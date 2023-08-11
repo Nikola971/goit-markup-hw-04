@@ -442,7 +442,6 @@ ul {
 .footer-cont {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-social {
   font-weight: 500;
